@@ -1,0 +1,150 @@
+/* Navigation Bar */
+* {
+  display: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Merriweather', serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background: white;
+}
+
+h1 {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-family: "Lobster", cursive;
+  font-size: 2.5rem;
+  font-weight: 100;
+  position: relative;
+  transform: rotate(-20deg);
+  margin-bottom: 50px;
+}
+
+h1 .juice {
+  position: absolute;
+  right: -1rem;
+  top: 80%;
+}
+
+.logo {
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1rem 0;
+}
+
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.links a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.links .nut {
+  text-decoration: underline;
+}
+
+h2 {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.pushing-p {
+  background: #ff8080;
+  margin-bottom: 16px;
+}
+
+.pushing-p a:hover {
+  color: grey;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.items {
+  width: 550px;
+  background: white;
+  margin: 50px;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem
+}
+
+hr {
+  border-style: dotted none none;
+  border-color: grey;
+  border-width: 5px;
+  width: 4%;
+  margin: 100px auto;
+}
+
+img {
+  width: 400px;
+}
+
+/* Footer Section */
+.footer-container {
+  background-color: #ff8080;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0;
+}
+
+.item {
+  color: white;
+  margin: 20px 10px;
+}
+
+.Copyright {
+  background-color: #ff8080;
+  color: white;
+  text-align: center;
+  padding-bottom: 20px;
+  margin-bottom: 0;
+}
+
+/* @media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  . code-image {
+    position: static;
+    transform: rotate(0);
+  }
+} */
+@media (max-width: 1028px) {
+  .header .flex-container {
+    display: block;
+    text-align: center;
+  }
+
+  .header .items {
+    width: fit-content;
+  }
+
+  .image {
+    width: 100%;
+  }
+}
